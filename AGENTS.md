@@ -14,4 +14,4 @@ You are an expert Software Architect assisting in the development of SaveStateGG
 - Data: PostgreSQL (Supabase/Neon)
 
 ## Domain References
-Always refer to `/docs/domain/ubiquitous-language.md` before generating code.
+Always refer to the `docs/domain/ubiquitous-language.md` file in the `savestategg-docs` repository before generating code.
