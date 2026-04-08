@@ -1,16 +1,13 @@
 # Spec 002: UI Component - Game Card
 
-## Objetivo
-Exibir informações resumidas de um jogo no Grid da Homepage.
+## Overview
+Displays summarized game information within the Homepage grid.
 
-## Elementos Visuais
-* Capa (Image): Aspect ratio 3:4.
+## Visual Elements
+- Cover (Image): Aspect ratio 3:4.
+- Title (Text): Truncated to 1 line if too long.
+- Rating (Badge): Circle or label showing the score (e.g., 85).
+- Overlay: Hover effect that highlights the card.
 
-* Título (Text): Truncado em 1 linha se for muito longo.
-
-* Rating (Badge): Círculo ou etiqueta com a nota (ex: 85).
-
-* Overlay: Efeito de hover que destaca o card.
-
-## Props (Contrato)
-Deve receber o objeto Game definido na Spec 001.
+## Props Contract
+- `game`: `Game` object (Reference: Spec 001).
