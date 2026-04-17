@@ -12,6 +12,7 @@ A modal interface allowing users to log a game session, write a text review, and
   - Textarea for the review (min-height 3 lines).
   - `StarRating` component integration.
 - **Actions:** 'Cancel' (ghost button) and 'Save' (primary solid button).
+- **Date Input:** Must be an immutable (read-only) field displaying the current date (YYYY-MM-DD). The user cannot select past or future dates.
 
 ## Props Contract
 - `gameTitle`: string
